@@ -22,6 +22,28 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Character_Recognition_with_CNN.py" />
+    <Compile Include="DataGenerator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ImageProcessingAndSaveImage.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LoadData.py" />
+    <Compile Include="Model.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PredictImage.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RecogniseImage.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ImagesAndLabelsToArray.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TrainModel.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
